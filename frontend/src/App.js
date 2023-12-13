@@ -1,8 +1,8 @@
-import { Container } from 'react-bootstrap';
 import React, { Fragment } from 'react';
+import { Outlet } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import HomeScreen from './screens/HomeScreen';
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
       <Header />
       <main>
         <Container>
-          <HomeScreen />
+          <Outlet />
         </Container>
       </main>
       <Footer />
