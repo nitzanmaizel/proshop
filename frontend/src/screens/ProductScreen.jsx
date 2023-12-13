@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import { useParams, Link } from 'react-router-dom';
-
 import { Row, Col, Image, ListGroup, Card, Button, Form } from 'react-bootstrap';
 import Rating from '../components/Rating';
 
